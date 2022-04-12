@@ -8,13 +8,12 @@ $answer-color: rgb(225, 235, 183);
 
 body {
   background: $gray; // Using this variable
+  margin: 50px;
+  font-family: $font-stack;
 }
 
-.banner {
-  background: red;
-  h1 {
-    font-size: 50px;
-  }
+h1 {
+  font-size: 50px;
 }
 
 a {
@@ -22,4 +21,18 @@ a {
   &:hover {
     color: black;
   }
+}
+
+.answer{
+  background: $answer-color;
+}
+
+.block{
+  border-left: 5px solid grey;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.button{
+  background: rgb(123, 123, 206);
 }
